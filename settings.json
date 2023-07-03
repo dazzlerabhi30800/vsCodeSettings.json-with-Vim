@@ -1,17 +1,17 @@
+
 {
-    "editor.fontWeight": "300",
+    "editor.fontWeight": "500",
     "workbench.list.smoothScrolling": true,
     "editor.cursorBlinking": "phase",
-    "editor.fontFamily": "Hack NFM",
+    "editor.fontFamily": "Hack Nerd Font, Consolas, 'Courier New', monospace",
     "editor.mouseWheelZoom": true,
-    "breadcrumbs.enabled": false,
-    "editor.cursorWidth": 1,
+    "editor.cursorWidth": 2,
     "editor.fontLigatures": true,
     "vscode_custom_css.imports": [
         "file:///C:/Users/abhis/Downloads/styles.css"
     ],
     "window.menuBarVisibility": "compact",
-    "vim.cursorStylePerMode.insert": "underline",
+    "vim.cursorStylePerMode.insert": "line-thin",
     "codesnap.backgroundColor": "#abb8c300",
     "codesnap.boxShadow": "rgba(0, 0, 0, 0) 0px 20px 68px",
     "terminal.integrated.gpuAcceleration": "off",
@@ -19,7 +19,7 @@
     "[javascriptreact]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "vscode_vibrancy.opacity": 0.6,
+    "vscode_vibrancy.opacity": 0.5,
     "glassit.alpha": 255,
     "synthwave84.brightness": 0.45,
     "[css]": {
@@ -57,43 +57,38 @@
     "editor.smoothScrolling": true,
     "editor.minimap.enabled": false,
     "terminal.integrated.smoothScrolling": true,
-    "editor.guides.indentation": false,
     "security.workspace.trust.untrustedFiles": "open",
     "javascript.updateImportsOnFileMove.enabled": "always",
     "editor.fontVariations": false,
-    // "workbench.colorCustomizations": {
-    //     "sideBar.border": "#27959500",
-    //     "activityBar.border": "#27959500",
-    //     "editorGroupHeader.border": "#fc4ff900",
-    //     "tab.border": "#fc4ff900",
-    //     "statusBar.background": "#06293f",
-    //     "titleBar.activeBackground": "#041120",
-    //     "sideBar.background": "#041120",
-    //     "activityBar.background": "#041120",
-    //     "editor.background": "#041120",
-    //     "editor.lineHighlightBackground": "#92919110",
-    //     "editorGroupHeader.tabsBackground": "#041120",
-    //     "tab.activeBackground": "#032438",
-    //     "tab.inactiveBackground": "#041120",
-    //     "editorGutter.background": "#041120",
-    //     "editorSuggestWidget.background": "#041120",
-    //     "editorHoverWidget.background": "#041120",
-    //     "editorHoverWidget.foreground": "#ccc",
-    //     "editorHoverWidget.border": "#b2e00bd0",
-    //     "editorSuggestWidget.focusHighlightForeground": "#8aa804",
-    //     "editorSuggestWidget.selectedBackground": "#072b42",
-    //     // "editorSuggestWidget.selectedForeground": "#0763cc",
-    // },
+    "workbench.colorCustomizations": {
+        "sideBar.border": "#27959500",
+        "activityBar.border": "#27959500",
+        "editorGroupHeader.border": "#fc4ff900",
+        "tab.border": "#7286f0",
+        "statusBar.background": "#1A1A1A",
+        "titleBar.activeBackground": "#1A1A1A",
+        "sideBar.background": "#1A1A1A",
+        "activityBar.background": "#1A1A1A",
+        "editor.background": "#1A1A1A",
+        "editor.lineHighlightBackground": "#92919110",
+        // "editorGroupHeader.tabsBackground": "#obocoe",
+        "tab.activeBackground": "#222222",
+        "tab.inactiveBackground": "#1A1A1A",
+        "editorGutter.background": "#1A1A1A",
+        "editorSuggestWidget.background": "#1A1A1A",
+        "editorHoverWidget.background": "#1A1A1A",
+        "editorHoverWidget.foreground": "#ccc",
+        "editorHoverWidget.border": "#b2e00bd0",
+        "editorGroupHeader.tabsBackground": "#171717",
+        "editorSuggestWidget.focusHighlightForeground": "#8aa804",
+        "editorSuggestWidget.selectedBackground": "#072b42",
+        "editorSuggestWidget.selectedForeground": "#0763cc"
+    },
     "editor.semanticTokenColorCustomizations": {
-        "enabled": true,
+        "enabled": true
     },
 
     "workbench.productIconTheme": "fluent-icons",
-    "vscode_vibrancy.theme": "Default Dark",
-    "window.zoomLevel": 2,
-    "editor.cursorStyle": "underline",
-    "workbench.colorTheme": "Tokyo Night Gogh",
-    "vim.leader": " ",
     "vim.easymotion" : true,
     "vim.useSystemClipboard" : true,
     "vim.normalModeKeyBindingsNonRecursive": [
@@ -146,12 +141,34 @@
             "before" : ["<Leader>", "n"],
             "commands": ["welcome.showNewFileEntries"],
         },
-        {
-            "before" : ["y", "y"],
-            "commands": ["editor.action.clipboardCopyAction"],
-        },
+        // {
+        //     "before" : ["y", "y"],
+        //     "commands": ["editor.action.clipboardCopyAction"],
+        // },
 
     ],
-    "editor.lineHeight": 1.7
+    "editor.lineHeight": 1.8,
 
+    // "workbench.iconTheme": "Monokai Pro (Filter Ristretto) Icons",
+    "window.titleBarStyle": "custom",
+    "remote.SSH.remotePlatform": {
+        "sandbox.50pfq7.csb": "linux",
+        "sandbox.8pe2iz.csb": "linux"
+    },
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "editor.cursorStyle": "underline",
+    "editor.guides.indentation": false,
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "vscode_vibrancy.theme": "Solarized Dark+",
+    "glassit.step": 2,
+    "breadcrumbs.enabled": false,
+    "workbench.colorTheme": "CodeSandbox-Black",
+    "workbench.activityBar.visible": false,
+    "window.zoomLevel": 1,
+    "editor.fontSize": 13,
+    "workbench.statusBar.visible": false
 }
