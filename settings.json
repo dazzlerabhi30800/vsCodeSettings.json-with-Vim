@@ -1,124 +1,20 @@
-
 {
-    "editor.linkedEditing": true,
-    "editor.fontWeight": "300",
-    "workbench.list.smoothScrolling": true,
-    // "editor.fontFamily": "InconsolataLGC Nerd Font Mono, Consolas, 'Courier New', monospace",
-    "editor.fontFamily": "Hack Nerd Font,JetBrainsMono Nerd Font Mono, monospace",
-    "editor.mouseWheelZoom": true,
-    "editor.cursorWidth": 2,
-    "editor.fontLigatures": "'calt', 'ss01'",
     "window.menuBarVisibility": "compact",
-    "vim.cursorStylePerMode.insert": "line",
-    "codesnap.backgroundColor": "#abb8c300",
-    "codesnap.boxShadow": "rgba(0, 0, 0, 0) 0px 20px 68px",
-    "terminal.integrated.fontFamily": "CaskaydiaCove Nerd Font",
-    "[javascriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "vscode_vibrancy.opacity": 0.88,
-    "glassit.alpha": 255,
-    "synthwave84.brightness": 0.45,
-    "[css]": {
-        "editor.defaultFormatter": "vscode.css-language-features"
-    },
-    "[javascript]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features"
-    },
-    "vim.cursorStylePerMode.normal": "block",
-    "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "terminal.integrated.profiles.windows": {
-        "PowerShell": {
-            "source": "PowerShell",
-            "icon": "terminal-powershell"
-        },
-        "Command Prompt": {
-            "path": [
-                "${env:windir}\\Sysnative\\cmd.exe",
-                "${env:windir}\\System32\\cmd.exe"
-            ],
-            "args": [],
-            "icon": "terminal-cmd"
-        },
-        "Git Bash": {
-            "source": "Git Bash"
-        },
-        "Windows PowerShell": {
-            "path": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
-        }
-    },
-    "terminal.integrated.defaultProfile.windows": "Windows PowerShell",
-    "editor.formatOnSave": true,
-    "editor.smoothScrolling": true,
-    "terminal.integrated.smoothScrolling": true,
-    "security.workspace.trust.untrustedFiles": "open",
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "editor.fontVariations": false,
-    "workbench.colorCustomizations": {
-        "editor.lineHighlightBackground": "#78787814",
-        "editorCursor.foreground": "#f7c35a",
-        // "statusBar.background": "#1B1B1B",
-        "statusBar.noFolderBackground": "#1B1B1B",
-        "statusBar.debuggingBackground": "#1B1B1B",
-        "statusBar.foreground": "#afafb0",
-        "statusBar.debuggingForeground": "#434C5E"
-    },
-    "editor.semanticTokenColorCustomizations": {
-        "enabled": true,
-    },
+    "editor.minimap.enabled": false,
+    "editor.lineHeight": 1.4,
     "editor.tokenColorCustomizations": {
-        "comments": "#838280",
-        // "functions": "#1ff7de",
-        // "variables": "#d7fa86",
-        // "numbers": "#8576f9",
-        // "keywords": "#f42f92",
-        // "types": "#fb7e8e",
-        // "strings": "#daad83",
+        "comments": {
+            "foreground": "#5e5e5e",
+            "fontStyle": "italic"
+        },
+        "functions": {
+            "fontStyle": "italic"
+        },
         "textMateRules": [
             {
                 "scope": [
-                    "variable.other.readwrite.js.jsx",
-                    "entity.name.function.js.jsx",
-                    "entity.name.function.js",
-                    "entity.name.function.tsx"
-                ],
-                "settings": {
-                    "fontStyle": "italic bold underline",
-                    // "fontStyle": "italic"
-                }
-            },
-            {
-                "scope": ["keyword.control.normalmode.vim", "constant.normalmode.vim"],
-                "settings": {
-                    "foreground": "#FF0000",
-                },
-            },
-            {
-                "scope": "variable.other.constant.object.js",
-                "settings": {
-                    // "foreground": "#4f6fc9ee",
-                    "fontStyle": "italic",
-                }
-            },
-            {
-                "scope": [
-                    "variable.other.readwrite.js.jsx"
-                ],
-                "settings": {
-                    "fontStyle": "bold underline"
-                }
-            },
-            {
-                "scope": [
-                    "comment",
-                    "entity.other.attribute-name.js.jsx",
-                    "entity.other.attribute-name.class.css",
-                    "entity.other.attribute-name.pseudo-class.css",
-                    "entity.name.tag.css",
-                    "keyword.control.at-rule.media.css",
-                    "variable.other.object.js"
+                    "entity.other.attribute-name",
+                    "support.constant.property-value.css"
                 ],
                 "settings": {
                     "fontStyle": "italic"
@@ -126,241 +22,62 @@
             }
         ]
     },
+    "editor.formatOnSave": true,
+    "extensions.experimental.affinity": {
+        "vscodevim.vim": 1,
+        "asvetliakov.vscode-neovim": 1
+    },
+    "editor.mouseWheelZoom": true,
+    "workbench.colorCustomizations": {
+        "editorCursor.foreground": "#eb4087",
+        "editorLineNumber.activeForeground": "#f85a87",
+        "editor.lineHighlightBackground": "#59575721",
+        "editor.background": "#191c1f",
+        "editorGutter.background": "#191C1F",
+        "activityBar.background": "#191C1F",
+        "sideBar.background": "#191C1F",
+        "titleBar.activeBackground": "#191C1F",
+        "editorGroupHeader.tabsBackground": "#191C1F",
+        "tab.activeBackground": "#191C1F",
+        "breadcrumb.background": "#191C1F",
+        "tab.inactiveBackground": "#191C1F",
+        "sideBarSectionHeader.background": "#191C1F",
+        "activityBarBadge.background": "#f24a96",
+        "terminal.background": "#191C1F",
+        "activityBarBadge.foreground": "#141414",
+        // "editorSuggestWidget.background": "#0d1921",
+        "editorSuggestWidget.background": "#191C1F",
+        "activityBar.border": "#29292900"
+    },
+    "workbench.activityBar.location": "hidden",
+    "editor.fontFamily": "FiraCode Nerd Font,BlexMono Nerd Font,Cascadia Code",
+    "editor.cursorBlinking": "smooth",
+    // "vscode-neovim.neovimExecutablePaths.win32": "C:/Program Files/Neovim/bin/nvim.exe",
+    "git.openRepositoryInParentFolders": "never",
+    "editor.fontWeight": "400",
+    "window.zoomLevel": 1,
+    "security.workspace.trust.untrustedFiles": "open",
+    // "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'zero', 'onum'",
+    "editor.fontLigatures": true,
     "vim.easymotion": true,
     "vim.leader": "<space>",
     "vim.useSystemClipboard": true,
-    "vim.normalModeKeyBindingsNonRecursive": [
-        {
-            "before": [
-                "<C-j>"
-            ],
-            "after": [
-                "<C-w>",
-                "j"
-            ],
-        },
-        {
-            "before": [
-                "<C-k>"
-            ],
-            "after": [
-                "<C-w>",
-                "k"
-            ],
-        },
-        {
-            "before": [
-                "<C-h>"
-            ],
-            "after": [
-                "<C-w>",
-                "h"
-            ],
-        },
-        {
-            "before": [
-                "<C-l>"
-            ],
-            "after": [
-                "<C-w>",
-                "l"
-            ],
-        },
-        {
-            "before": [
-                "k"
-            ],
-            "after": [
-                "g",
-                "k"
-            ],
-        },
-        {
-            "before": [
-                "j"
-            ],
-            "after": [
-                "g",
-                "j"
-            ],
-        },
-        {
-            "before": ["<Leader>","r", "f" ],
-            "commands": [
-                "fileutils.renameFile"
-            ]
-        },
-        {
-            "before": ["K"],
-            "commands": [
-                "editor.action.showDefinitionPreviewHover"
-            ]
-        },
-        {
-            "before": [
-                "<Leader>",
-                "b"
-            ],
-            "commands": [
-                "workbench.action.toggleSidebarVisibility"
-            ],
-        },
-        
-        {
-            "before": [
-                "<Leader>",
-                "r"
-            ],
-            "commands": [
-                "revealInExplorer"
-            ],
-        },
-        {
-            "before": [
-                "<Leader>",
-                "f"
-            ],
-            "commands": [
-                "workbench.action.quickOpen"
-            ],
-        },
-{
-    "before": [
-        "<Leader>",
-        "r"
-    ],
-            "commands": [
-                "revealInExplorer"
-            ],
-        }, 
-        {
-            "before": [
-                "<C-a>"
-            ],
-            "commands": [
-                "editor.action.selectAll"
-            ]
-        },
-        {
-            "before": [
-                "<C-right>"
-            ],
-            "commands": [
-                "workbench.action.increaseViewWidth"
-            ],
-        },
-        {
-            "before": [
-                "<C-left>"
-            ],
-            "commands": [
-                "workbench.action.decreaseViewWidth"
-            ],
-        },
-        {
-            "before": [
-                "<C-up>"
-            ],
-            "commands": [
-                "workbench.action.increaseViewHeight"
-            ],
-        },
-        {
-            "before": [
-                "<C-down>"
-            ],
-            "commands": [
-                "workbench.action.decreaseViewHeight"
-            ],
-        },
-        {
-            "before": [
-                "<Leader>",
-                "n"
-            ],
-            "commands": [
-                "welcome.showNewFileEntries"
-            ],
-        },
-    ],
-    "vim.visualModeKeyBindingsNonRecursive": [
-        {
-            "before": [
-                "k"
-            ],
-            "after": [
-                "g",
-                "k"
-            ],
-        },
-        {
-            "before": [
-                "g", "k"
-            ],
-            "after": [
-                "k"
-            ],
-        },
-        {
-            "before": [
-                "j"
-            ],
-            "after": [
-                "g",
-                "j"
-            ],
-        },
-        
-        {
-            "before": [
-                "g", "j"
-            ],
-            "after": [
-                "j"
-            ],
-        },
-        
-    ],
-    // "workbench.iconTheme": "Monokai Pro (Filter Ristretto) Icons",
     "window.titleBarStyle": "custom",
-    "remote.SSH.remotePlatform": {
-        "sandbox.50pfq7.csb": "linux",
-        "sandbox.8pe2iz.csb": "linux"
-    },
-    "emmet.includeLanguages": {
-        "javascript": "javascriptreact"
-    },
-    "editor.cursorStyle": "line-thin",
-    "[json]": {
+    "workbench.statusBar.visible": false,
+    "redhat.telemetry.enabled": true,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorWidth": 0.5,
+    "editor.cursorWidth": 1,
+    "terminal.integrated.enableImages": true,
+    "terminal.integrated.gpuAcceleration": "on",
+    "[typescriptreact]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "glassit.step": 2,
-    "git.openRepositoryInParentFolders": "never",
-    "vscode_custom_css.imports": [
-        "file:///C:/Users/abhis/Documents/vs-code-style.css",
-        "file:///c:/Users/abhis/.vscode/extensions/brandonkirbyson.vscode-animations-1.1.0/dist/updateHandler.js"
-    ],
-    "vscode_custom_css.policy": true,
-    "editor.cursorBlinking": "smooth",
-    "window.zoomLevel": 1,
-    "editor.lineHeight": 1.6,
-    "vim.overrideCopy": false,
-    "vim.useCtrlKeys": true,
-    "editor.fontSize": 13,
-    "vim.targets.enable": true,
-    "breadcrumbs.enabled": false,
-    "editor.minimap.enabled": false,
-    "[typescriptreact]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features"
+    "glassit.alpha": 255,
+    "workbench.colorTheme": "Tailwind - Darkest",
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "editor.guides.indentation": false,
-    "vim.highlightedyank.enable": true,
-    "inlang.userId": "38b41cef-289e-4d4f-8020-8e1d5c3e5b61",
-    "workbench.colorTheme": "Min Dark",
-    "vim.easymotionIncSearchForegroundColor": "#F2F7C2",
-    "workbench.statusBar.visible": false,
-    // "vim.normalMode.cursorColor": "#FF0000",
-    // "vim.statusBarColors.commandlineinprogress": "#007ACC",
-    
-    
+    "workbench.activityBar.visible": false,
+    // "editor.fontLigatures": "'calt', 'ss01'",
 }
