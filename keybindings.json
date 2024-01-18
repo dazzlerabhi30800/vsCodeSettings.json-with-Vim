@@ -1,0 +1,167 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "alt+a",
+        "command": "workbench.action.toggleActivityBarVisibility"
+    },
+    {
+        "key": "alt+s",
+        "command": "workbench.action.toggleStatusbarVisibility"
+    },
+    {
+        "key": "alt+n",
+        "command": "workbench.action.nextEditor"
+    },
+    {
+        "key": "ctrl+pagedown",
+        "command": "-workbench.action.nextEditor"
+    },
+    {
+        "key": "ctrl+b",
+        "command": "-workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "shift+alt+r",
+        "command": "-revealFileInOS",
+        "when": "!editorFocus"
+    },
+    // {
+    //     "key": "space b",
+    //     "command": "workbench.action.toggleSidebarVisibility",
+    //     "when": "editorFocus && vim.active && vim.mode == 'Normal'"
+    // },
+    // {
+    //     "key": "space r",
+    //     "command": "revealInExplorer",
+    //     "when": "editorFocus && vim.active && vim.mode == 'Normal'"
+    // },
+    // {
+    //     "key": "space f",
+    //     "command": "workbench.action.quickOpen",
+    //     "when": "editorFocus && vim.active && vim.mode == 'Normal'"
+    // },
+    // {
+    //     "key": "space n",
+    //     "command": "welcome.showNewFileEntries",
+    //     "when": "editorFocus && vim.active && vim.mode == 'Normal'"
+    // },
+    // {
+    //     "key": "shift+k",
+    //     "command": "editor.action.showDefinitionPreviewHover",
+    //     "when": "editorFocus && !editorReadonly && vim.active && vim.mode == 'Normal'"
+    // },
+    // {
+    //     "key": "ctrl+right",
+    //     "command": "workbench.action.increaseViewWidth",
+    //     "when": "editorFocus && !editorReadonly"
+    // },
+    // {
+    //     "key": "ctrl+left",
+    //     "command": "workbench.action.decreaseViewWidth",
+    //     "when": "editorFocus && !editorReadonly"
+    // },
+    // {
+    //     "key": "ctrl+up",
+    //     "command": "workbench.action.increaseViewHeight",
+    //     "when": "editorFocus && !editorReadonly"
+    // },
+    // {
+    //     "key": "ctrl+down",
+    //     "command": "workbench.action.decreaseViewHeight",
+    //     "when": "editorFocus && !editorReadonly"
+    // },
+    // {
+    //     "command": "runCommands",
+    //     "key": "ctrl+l",
+    //     "args": {
+    //         "commands": [
+    //             "extension.vim_ctrl+w",
+    //             "extension.vim_right"
+    //         ]
+    //     },
+    //     "when": "editorFocus && !editorReadonly"
+    // },
+    // {
+    //     "command": "runCommands",
+    //     "key": "ctrl+h",
+    //     "args": {
+    //         "commands": [
+    //             "extension.vim_ctrl+w",
+    //             "extension.vim_left"
+    //         ]
+    //     },
+    //     "when": "editorFocus && !editorReadonly"
+    // },
+    // {
+    //     "command": "runCommands",
+    //     "key": "ctrl+j",
+    //     "args": {
+    //         "commands": [
+    //             "extension.vim_ctrl+w",
+    //             "extension.vim_down"
+    //         ]
+    //     },
+    //     "when": "editorFocus && !editorReadonly"
+    // },
+    // {
+    //     "command": "runCommands",
+    //     "key": "ctrl+k",
+    //     "args": {
+    //         "commands": [
+    //             "extension.vim_ctrl+w",
+    //             "extension.vim_up"
+    //         ]
+    //     },
+    //     "when": "editorFocus && !editorReadonly"
+    // },
+    // {
+    //     "key": "space 1",
+    //     "command": "workbench.action.openEditorAtIndex1",
+    //     "when": "editorFocus && vim.active && vim.mode == 'Normal'"
+    // },
+    // {
+    //     "key": "space 2",
+    //     "command": "workbench.action.openEditorAtIndex2",
+    //     "when": "editorFocus && vim.active && vim.mode == 'Normal'"
+    // },
+    // {
+    //     "key": "space 3",
+    //     "command": "workbench.action.openEditorAtIndex3",
+    //     "when": "editorFocus && vim.active && vim.mode == 'Normal'"
+    // },
+    // {
+    //     "key": "space 4",
+    //     "command": "workbench.action.openEditorAtIndex4",
+    //     "when": "editorFocus && vim.active && vim.mode == 'Normal'"
+    // },
+    // {
+    //     "key": "space 5",
+    //     "command": "workbench.action.openEditorAtIndex5",
+    //     "when": "editorFocus && vim.active && vim.mode == 'Normal'"
+    // },
+    // {
+    //     "key": "space 6",
+    //     "command": "workbench.action.openEditorAtIndex6",
+    //     "when": "editorFocus && vim.active && vim.mode == 'Normal'"
+    // },
+    // {
+    //     "key": "ctrl+k",
+    //     "command": "editor.action.moveLinesUpAction",
+    //     "when": "editorTextFocus && !editorReadonly"
+    // },
+    // {
+    //     "key": "alt+up",
+    //     "command": "-editor.action.moveLinesUpAction",
+    //     "when": "editorTextFocus && !editorReadonly"
+    // },
+    // {
+    //     "key": "ctrl+j",
+    //     "command": "editor.action.moveLinesDownAction",
+    //     "when": "editorTextFocus && !editorReadonly"
+    // },
+    // {
+    //     "key": "alt+down",
+    //     "command": "-editor.action.moveLinesDownAction",
+    //     "when": "editorTextFocus && !editorReadonly"
+    // },
+]
